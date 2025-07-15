@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Nursing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navigation -->
+    <nav class="nav-con">
+        <div class="logo-items">
+        <img src="images/logo.png" alt="">
+        <div class="sch-name">
+            College Of Nursing <br>
+            Amachara.
+        </div>
+    </div>
+        <div class="nav-details">
+            <ul>
+                <i id="close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    <!-- home -->
+    <section id="about-home">
+        <h2>Enroll in our College</h2>
+       
+    </section>
+ <!-- course-inner -->
+ <section id="blog-container">
+    <div class="blogs">
+ <section class="course-inner">
+    <div class="post-container">
+        <h2>Basic General Nursing.</h2>
+        <img src="images/p2c.jpg" alt="">
+         <h3>Basic General Nursing </h3>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <i class="fa-solid fa-star"></i>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint eos soluta ipsum eum odit vitae amet itaque! Repellendus fugit velit labore non, ex quibusdam voluptatibus accusantium adipisci iusto vitae quos ut ducimus nisi culpa natus deleniti officiis odio maiores tempora quasi quam dolores! Itaque quam nostrum obcaecati inventore error?</p>
+         <a href="apply.html">Apply Now</a>
+     </div>
+     <div class="duration">
+         <p>Duration        : 3 years</p> <br>
+         <hr><br>
+         <p>School Fees            : Contact Us</p> <br>
+         <hr><br>
+         <p>Seats available : Yes</p> <br>
+        
+
+     </div>
+     </div>
+ </section>
+    <!-- footer -->
+    <footer>
+        <div class="foot-con">
+            <div class="foot-logo-con">
+                 <img src="images/logo.png" alt="">
+                 <p>@ 2025 CONMSAM</p>
+                 <p>All rights reserved.</p>
+            </div>
+            <div class="foot-col">
+                <h3>Quick Links</h3>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        
+            </div>
+            <div class="foot-contact">
+                <p>Email:</p>  <p>info@CONMSAM.edu.ng</p>
+                <p>Phone:</p> <p>+234 80 279 762 51</p>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+         </div>
+    </footer>
+    <script>
+         $('#menu-btn').click(function(){
+            $('.nav-con .nav-details ul').addClass('active')
+        })
+
+        $('#close').click(function(){
+            $('.nav-con .nav-details ul').removeClass('active')
+        })
+    </script>
+</body>
+</html>

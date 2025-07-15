@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Nursing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- navigation -->
+    <nav class="nav-con">
+        <div class="logo-items">
+        <img src="images/logo.png" alt="">
+        <div class="sch-name">
+            College Of Nursing <br>
+            Amachara.
+        </div>
+    </div>
+        <div class="nav-details">
+            <ul>
+                <i id="close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="about-home">
+        <h2>Contact Us</h2>  
+    </section>
+<!-- contact -->
+<section id="contact">
+    <div class="get-in">
+        <h2>Get in Touch</h2>
+        <p>looking for help? Fill the form.</p>
+        <div class="getin-details">
+            <h3>Headquaters</h3>
+            <div>
+                <i class="fa-solid fa-house get"></i>
+                <p>774 umuokpara,Imo road,Umuahia Abia State.</p>
+            </div>
+            <h3>Phone</h3>
+            <div>
+                <i class="fa-solid fa-phone get"></i>
+                <p> (+234) 80 279 762 51 <br> (+234) 80 279 762 51
+                   </p>
+            </div>
+            <h3>Email</h3>
+            <div>
+                <i class="fa-regular fa-envelope get"></i>
+                <p>info@CONSAM.edu.ng</p>
+            </div>
+            <h3>Follow Us</h3>
+            <div class="con-socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>                
+        </div>
+    </div>
+    <div class=form>
+        <h4>Let's Connect</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, itaque!</p>
+        <div class="form-row">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="form-col">
+            <input type="text" placeholder="Subject">
+        </div>
+        <div class="form-col">
+            <textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+        </div>
+        <div class="form-col">
+           <button>Send Message</button>
+        </div>
+    </div>
+</section>
+<!-- map -->
+<section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63538.72552439994!2d7.385229921679699!3d5.541740800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042dd6c88c13985%3A0x23fcec8e2956245b!2sSchool%20Of%20Nursing%20Amachara!5e0!3m2!1sen!2sng!4v1752576385295!5m2!1sen!2sng"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+    
+   
+    <!-- footer -->
+    <footer>
+        <div class="foot-con">
+            <div class="foot-logo-con">
+                 <img src="images/logo.png" alt="">
+                 <p>@ 2025 CONMSAM</p>
+                 <p>All rights reserved.</p>
+            </div>
+            <div class="foot-col">
+                <h3>Quick Links</h3>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        
+            </div>
+            <div class="foot-contact">
+                <p>Email:</p>  <p>info@CONMSAM.edu.ng</p>
+                <p>Phone:</p> <p>+234 80 279 762 51</p>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+         </div>
+    </footer>
+    <script>
+         $('#menu-btn').click(function(){
+            $('.nav-con .nav-details ul').addClass('active')
+        })
+
+        $('#close').click(function(){
+            $('.nav-con .nav-details ul').removeClass('active')
+        })
+    </script>
+</body>
+</html>
